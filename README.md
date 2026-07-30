@@ -67,7 +67,7 @@ wsl --install
 The command downloaded and installed the WSL component (v2.7.11) and enabled the `VirtualMachinePlatform` feature. It completed successfully and required a **system reboot** to finish activation, which was then performed.
 
 <p align="center">
-  <img src="images/01-wsl-install.png" width="620" alt="Running wsl --install">
+  <img src="images1_wsl_install.png" width="620" alt="Running wsl --install">
 </p>
 <p align="center"><em>Figure 1: <code>wsl --install</code> completing successfully</em></p>
 
@@ -84,7 +84,7 @@ wsl --install -d Ubuntu-22.04
 Ubuntu 22.04 LTS was downloaded and launched automatically, prompting for a default Unix user — created as `rafee` with a password. 
 
 <p align="center">
-  <img src="images/02-ubuntu-install.png" width="620" alt="Ubuntu 22.04 installation complete">
+  <img src="images2_ubuntu_install.png" width="620" alt="Ubuntu 22.04 installation complete">
 </p>
 <p align="center"><em>Figure 2: Ubuntu 22.04 installed, user <code>rafee</code> created, Ubuntu prompt active</em></p>
 
@@ -136,7 +136,7 @@ echo $ROS_DISTRO
 This returned `humble`, confirming the installation was successful.
 
 <p align="center">
-  <img src="images/04-verify-ros-distro.png" width="400" alt="Verifying ROS_DISTRO">
+  <img src="images3_verify_ros_distro.png" width="400" alt="Verifying ROS_DISTRO">
 </p>
 <p align="center"><em>Figure 4: <code>echo $ROS_DISTRO</code> → <code>humble</code></em></p>
 
