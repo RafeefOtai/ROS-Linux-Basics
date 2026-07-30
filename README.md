@@ -147,7 +147,3 @@ This was the only issue encountered — every other step went smoothly on the fi
 ## Conclusion
 
 A complete ROS2 development environment (**WSL2 + Ubuntu 22.04 + ROS2 Humble**) was successfully set up on Windows. The shell commands practiced in Part 1 made it much easier to follow and troubleshoot the package-management steps in Part 2. The environment is now ready for the next stage of the training.
-
----
-
-<p align="center"><sub>Report | Rafeef Alotaibi</sub></p>
